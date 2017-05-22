@@ -2,6 +2,7 @@
 <html>
 <head>
   <script src="scripts.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
 
 <title>JavaScript Hello World</title>
 </head>
@@ -12,5 +13,12 @@
 <!--Everything within the alert is actually javascript according to this tutorial: https://blog.udemy.com/javascript-hello-world/ -->
 <alert("Hello, World! Finally, I'm aliiiiiive!")>
 </script>
+<div ng-app = "">
+  <p>Enter your Name: <input type = "text" ng-model = "name"></p>
+</div>
+
+<p>
+  <input type="button" onClick="location.href='test2.html';" value="view test2.html" />
+</p>
 </body>
 </html>
